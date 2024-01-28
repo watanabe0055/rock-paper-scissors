@@ -11,7 +11,7 @@
     "ignore": [".next", "node_modules"],
     "indentWidth": 2,
     "indentStyle": "space",
-    "lineWidth": 80
+    "lineWidth": 40
   },
   "javascript": {
     "parser": {
@@ -37,10 +37,7 @@
   "linter": {
     "ignore": [".next", "node_modules"],
     "rules": {
-      "all": true,
-      "nursery": {
-        "noDefaultExport": "off"
-      }
+      "all": true
     }
   }
 }
