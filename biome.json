@@ -37,7 +37,9 @@
   "linter": {
     "ignore": [".next", "node_modules"],
     "rules": {
-      "all": true
+      "style": {
+        "noDefaultExport": "off"
+      }
     }
   }
 }
