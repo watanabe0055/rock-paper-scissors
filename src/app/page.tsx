@@ -1,7 +1,8 @@
-import Button from '@/commponents/atoms/Button'
-import ResultText from '@/commponents/atoms/ResultText'
-import Text from '@/commponents/atoms/Text'
-import Title from '@/commponents/atoms/Title'
+import Button from '@/components/atoms/Button'
+import ResultText from '@/components/atoms/ResultText'
+import Text from '@/components/atoms/Text'
+import Title from '@/components/atoms/Title'
+import './globals.css'
 
 export default function Home() {
   return (
