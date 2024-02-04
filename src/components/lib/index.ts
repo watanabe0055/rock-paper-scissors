@@ -1,12 +1,12 @@
-import { loseCount, userChoiceState, winCount } from '@/globalState.index'
-import { useCallback, useEffect, useState } from 'react'
+import { loseCountState, userChoiceState, winCountState } from '@/globalState.index'
+import { useEffect, useState } from 'react'
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil'
 
 export const gameLogic = () => {
   const [userChoice, setUserChoice] = useRecoilState(userChoiceState)
 
-  const setWinCount = useSetRecoilState(winCount)
-  const setLoseCount = useSetRecoilState(loseCount)
+  const setWinCount = useSetRecoilState(winCountState)
+  const setLoseCount = useSetRecoilState(loseCountState)
 
   const [computerChoice, setComputerChoice] = useState<string>('')
 

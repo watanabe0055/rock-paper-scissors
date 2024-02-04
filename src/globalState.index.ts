@@ -5,12 +5,12 @@ export const userChoiceState = atom({
   default: '',
 })
 
-export const winCount = atom({
+export const winCountState = atom({
   key: 'winCount',
   default: 0,
 })
 
-export const loseCount = atom({
+export const loseCountState = atom({
   key: 'loseCount',
   default: 0,
 })
