@@ -1,16 +1,18 @@
+'use client'
+
 import Button from '@/components/atoms/Button'
-import ResultText from '@/components/atoms/ResultText'
-import Text from '@/components/atoms/Text'
+
 import Title from '@/components/atoms/Title'
+import { RecoilRoot } from 'recoil'
 import './globals.css'
 
 export default function Home() {
   return (
     <>
-      <Title text='じゃんけんゲーム' />
-      <Button />
-      <Text text='コンピューターの選択' />
-      <ResultText />
+      <RecoilRoot>
+        <Title text='じゃんけんゲーム' />
+        <Button />
+      </RecoilRoot>
     </>
   )
 }
